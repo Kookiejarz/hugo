@@ -1,0 +1,61 @@
+# baseURL = 'http://blog.btlcraft.top:9011'
+languageCode = 'en-us'
+title = 'Kenneth Blog'
+theme = 'hugo-theme-cleanwhite'
+# home/category/tag 页面显示的文章数 (Default: 10)
+paginate = 4
+# home/category/tag 页面用于摘要的字数 (Default: 70)
+summaryLength = 50
+
+[params]
+  header_image = "img/bg-welco.jpg/"
+  slogan = "望世界，展未来"
+
+image_404 = "img/404-bg.jpg"
+title_404 = "You shouldn't be here! :("
+
+# 博客链接的路径格式
+[permalinks]
+  posts = "/:year/:month/:title/"
+  page = "/:slug/"
+  
+# 顶部栏
+[[menu.navbar]]
+  name = "Home"
+  url = "http://blog.btlcraft.top:9011"
+
+ # Sidebar settings
+  sidebar_about_description = "Student, not good at math, daydreamer."
+  sidebar_avatar = "img/profile.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# 侧边栏，可以写多个
+[[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/top/about/"
+  header_image = "img/bg-about.jpg/"
+[[params.addtional_menus]]
+  title =  "Alist"
+  href =  "http://alist.btlcraft.top:9011"
+[[params.addtional_menus]]
+  title =  "Chat-GPT"
+  href =  "http://chat.btlcraft.top:9011"
+
+[params.social]
+  #rss            = true
+  email          = "mongohero@outlook.com"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  #twitter       = "full profile url in twitter"
+  #linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
+  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  #instagram     = "full profile url in instagram"
+  github         = "https://github.com/kookiejarz"
+  #wechat         = "your wechat qr code image"
+  #medium         = "full profile url in medium"
+  #pinterest     = "full profile url in pinterest"
+  #reddit        = "full profile url in reddit"
+  #gitlab        = "full profile url in gitlab"
+  #mastodon      = "full profile url in mastodon"
+  #keybase       = "full profile url in keybase"
+  #xing          = "https://www.xing.com/profile/yourxingid"
+  #git           = "full profile url for git user"
