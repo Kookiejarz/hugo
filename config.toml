@@ -1,4 +1,4 @@
-baseURL = 'https://kookiejarz.github.io/hugo/'
+baseURL = 'https://kookiejarz.github.io'
 languageCode = 'en-us'
 title = 'Kenneth Blog'
 theme = 'hugo-theme-cleanwhite'
