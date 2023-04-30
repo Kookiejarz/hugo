@@ -1,4 +1,4 @@
-# baseURL = 'http://blog.btlcraft.top:9011'
+baseURL = 'https://kookiejarz.github.io/hugo/'
 languageCode = 'en-us'
 title = 'Kenneth Blog'
 theme = 'hugo-theme-cleanwhite'
