@@ -22,7 +22,7 @@ title_404 = "You shouldn't be here! :("
 # 顶部栏
 [[menu.navbar]]
   name = "Home"
-  url = "http://blog.btlcraft.top:9011"
+  url = "https://kookiejarz.github.io"
 
  # Sidebar settings
   sidebar_about_description = "Student, not good at math, daydreamer."
